@@ -1,0 +1,32 @@
+{
+  "name": "matthew-p/yii2-fcm-component",
+  "description": "Very simple fcm component for yii2",
+  "type": "yii2-extension",
+  "keywords": ["yii2","extension","fcm","component","firebase","cloud","message"],
+  "license": "BSD-3-Clause",
+  "authors": [
+    {
+      "name": "Matthew Patell",
+      "email": "lukomi@mail.ru"
+    }
+  ],
+  "require": {
+    "yiisoft/yii2": "*",
+    "understeam/yii2-fcm": ">=0.2.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "MP\\Fcm\\": ""
+    }
+  },
+  "repositories": [
+    {
+      "type": "git",
+      "url": "https://github.com/MatthewPattell/yii2-fcm"
+    },
+    {
+      "type": "git",
+      "url": "https://github.com/MatthewPattell/php-fcm"
+    }
+  ]
+}
