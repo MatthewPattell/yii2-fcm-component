@@ -10,9 +10,10 @@
       "email": "lukomi@mail.ru"
     }
   ],
+  "minimum-stability": "stable",
   "require": {
     "yiisoft/yii2": "*",
-    "understeam/yii2-fcm": ">=0.2.1"
+    "understeam/yii2-fcm": "0.2.1"
   },
   "autoload": {
     "psr-4": {
