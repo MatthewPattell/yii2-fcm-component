@@ -7,19 +7,28 @@ Installation
 
 The preferred way to install this extension is through [composer](http://getcomposer.org/download/).
 
-Either run
+Add
 
 ```
-php composer.phar require --prefer-dist matthew-p/yii2-fcm-component "@dev"
-```
-
-or add
-
-```
-"matthew-p/yii2-fcm-component": "@dev"
+"matthew-p/yii2-fcm-component": "^1.0"
 ```
 
 to the require section of your `composer.json` file.
+
+and
+
+```
+{
+  "type": "git",
+  "url": "https://github.com/MatthewPattell/yii2-fcm"
+},
+{
+  "type": "git",
+  "url": "https://github.com/MatthewPattell/php-fcm"
+}
+```
+
+to the repositories section of your `composer.json` file.
 
 Usage
 -----

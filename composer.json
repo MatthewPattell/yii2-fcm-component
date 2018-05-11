@@ -12,7 +12,7 @@
   ],
   "require": {
     "yiisoft/yii2": "*",
-    "understeam/yii2-fcm": "^0.2.2"
+    "understeam/yii2-fcm": "^0.2.1"
   },
   "autoload": {
     "psr-4": {
