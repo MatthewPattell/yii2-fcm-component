@@ -103,6 +103,10 @@ class FcmComponent extends Client
             ->setPriority($notification['priority'])
             ->setData($message['data'] ?? []);
 
+        if (!empty($message['contentAvailable']) && $message['contentAvailable']) {
+            $msg->setContentAvailable();
+        }
+
         if ($collapseKey = $message['key'] ?? $notification['key']) {
             $msg->setCollapseKey($message['key'] ?? $notification['key']);
         }
