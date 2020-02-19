@@ -87,7 +87,9 @@ class FcmComponent extends Client
             $note->setSound($notification['sound']);
         }
 
-        $note->setBadge($notification['badge']);
+        if ($notification['badge'] !== null) {
+            $note->setBadge($notification['badge']);
+        }
 
         $target = NULL;
 
